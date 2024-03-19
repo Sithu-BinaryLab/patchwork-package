@@ -11,8 +11,8 @@
     "start": "react-scripts start"
   },
   "author": {
-    "name": "Sithu",
-    "url": "https://github.com"
+    "name": "Sithu-BinaryLab",
+    "url": "https://github.com/Sithu-BinaryLab/patchwork-package"
   },
   "license": "MIT",
   "devDependencies": {
