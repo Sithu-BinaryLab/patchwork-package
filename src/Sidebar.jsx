@@ -1,44 +1,51 @@
 import React from "react";
 import RadioIcon from "./assets/icons/radio-icon";
-import "./SidebarComponent.css"; // Import the CSS file
 
 const SidebarComponent = () => {
   return (
-    <div className="sidebar">
-      <p className="server-settings">SERVER SETTINGS:</p>
-      <div className="border-container">
-        <div className="radio-item">
+    <div className="bg-black py-4">
+      <p className="font-bold text-[11px] text-pathwork-label">
+        SERVER SETTINGS:
+      </p>
+      <div className="border border-pathwork-border mt-4 p-3">
+        <div className="flex space-x-3">
           <RadioIcon />
-          <p className="radio-label">Spam Block</p>
+          <p className="text-white text-[11px] font-extrabold">Spam Block</p>
         </div>
-        <div className="radio-item">
+        <div className="flex space-x-3 my-3">
           <RadioIcon />
-          <p className="radio-label">Content Moderation</p>
+          <p className="text-white text-[11px] font-extrabold">
+            Content Moderation
+          </p>
         </div>
-        <div className="radio-item">
+        <div className="flex space-x-3">
           <RadioIcon />
-          <p className="radio-label">Federation</p>
+          <p className="text-white text-[11px] font-extrabold">Federation</p>
         </div>
         <div className="ml-4">
-          <div className="radio-item">
+          <div className="flex space-x-3 my-3">
             <RadioIcon />
-            <p className="radio-label">Bluesky</p>
+            <p className="text-white text-[11px] font-extrabold">Bluesky</p>
           </div>
-          <div className="radio-item">
+          <div className="flex space-x-3">
             <RadioIcon />
-            <p className="radio-label">Threads</p>
+            <p className="text-white text-[11px] font-extrabold">Threads</p>
           </div>
         </div>
-        <div className="radio-item">
+        <div className="flex space-x-3 my-3">
           <RadioIcon />
-          <p className="radio-label">Local Features</p>
+          <p className="text-white text-[11px] font-extrabold">
+            Local Features
+          </p>
         </div>
-        <div className="radio-item">
+        <div className="flex space-x-3">
           <RadioIcon />
-          <p className="radio-label">User Contact</p>
+          <p className="text-white text-[11px] font-extrabold">User Contact</p>
         </div>
       </div>
-      <div className="see-more">See more</div>
+      <div className="border border-white text-white text-center py-2 font-bold text-community mt-4">
+        See more
+      </div>
     </div>
   );
 };

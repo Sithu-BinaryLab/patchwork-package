@@ -1,6 +1,6 @@
 import React from "react";
 
-const CrossIcon = () => {
+const RadioIcon = () => {
   return (
     <div className="cursor-pointer">
       <svg
@@ -16,4 +16,4 @@ const CrossIcon = () => {
   );
 };
 
-export default CrossIcon;
+export default RadioIcon;
