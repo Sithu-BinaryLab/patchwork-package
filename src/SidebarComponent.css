@@ -1,0 +1,50 @@
+/* SidebarComponent.css */
+
+.sidebar {
+  background-color: black;
+  padding-top: 16px; /* Equivalent to py-4 */
+  padding-bottom: 16px;
+}
+
+.server-settings {
+  font-weight: bold;
+  font-size: 11px; /* Equivalent to text-[11px] */
+  color: #626982; /* pathwork-label color */
+}
+
+.border-container {
+  border: 1px solid #323542; /* pathwork-border color */
+  margin-top: 16px; /* Equivalent to mt-4 */
+  padding: 12px; 
+  padding-left: 12px;
+  
+  padding-right: 12px;/* Equivalent to p-3 */
+}
+
+.radio-item {
+  display: flex;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px; /* Equivalent to my-3 */
+  margin-left:12px;
+}
+
+.radio-icon {
+  /* Styles for your radio icon */
+}
+
+.radio-label {
+  color: white;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.see-more {
+  border: 1px solid white;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 8px; 
+   padding-bottom: 8px 0;/* Equivalent to py-2 */
+  margin-top: 16px; /* Equivalent to mt-4 */
+}
